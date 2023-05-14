@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+/*Career*/
+.career h1 span{
+	color:#953553;
+	margin-right:15 ;
+	font-family: Century Gothic;
+}
+
+/*Testimonial*/
+.Testimonial h1 span{
+	color:#ff0000;
+	margin-right:15 ;
+	font-family: Century Gothic;
+}
+
+/*Product*/
+.Product h1 span{
+	color:#880808;
+	margin-right:15 ;
+	font-family: Century Gothic;
+	text-align: center;
+}
+.Product h3 span{
+		color:#EE4B2B;
+		margin-right:15 ;
+		font-family: Century Gothic;
+
+}
+.Product p span{
+		color:#FF5733;
+		margin-right:15 ;
+		font-family: Century Gothic;
+}
+
+/*About*/
+.About h2 span{
+	color:#880808;
+	margin-right:15 ;
+	font-family: Century Gothic;
+}
+
+.About h1 span{
+	color:#FF5733;
+	margin-right:15 ;
+	font-family: Century Gothic;
+}
+/*Homepage*/
+.carousel.{
+	       width:3000px;
+	       height:1500px;
+           position:relative;
+           overflow: hidden;
+        }
+.carousel-image{
+	width: 3000px;
+	height: 1500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: carousel-animation 10s infinite;
+}  
+
+               .carousel-image.img{
+               	    float: left;
+               	    width: 1000px;
+               	    height: 600px;
+               	}
+
+               	@keyframes carousel-animation{
+               		0%{
+               			left: 0;
+               		}
+               		20%{
+               			left: 0;
+               		}
+               		25%{
+               			left: -400px;
+
+               		}
+               		45%{
+               			left: -400px;
+               		}
+               		50%{
+               			left: -800px;
+               		}
+
